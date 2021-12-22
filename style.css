@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+.section-1 {
+  width: 100%;
+  height: 100vh;
+  background: url(../image/unsplash_gioH4gHo0-g.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-1 .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 53px 87px;
+  gap: 50px;
+}
+
+.section-1 .header a {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  text-align: center;
+  color: #FCFCFC;
+  margin-left: 25px;
+}
+
+.section-1 .header .icone img {
+  margin-left: 200px;
+}
+
+.section-1 .menu h1 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 120%;
+  color: #FFFFFF;
+  margin: 50px 87px;
+}
+
+.section-1 .guitar-price {
+  margin: 80px 100px;
+  height: 280px;
+  width: 85%;
+  background-color: #AB0433;
+  -webkit-box-shadow: 0px 2px 4px rgba(28, 5, 77, 0.1), 0px 12px 32px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 2px 4px rgba(28, 5, 77, 0.1), 0px 12px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.section-1 .guitar-price h4 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 120%;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 20px 0px;
+  padding-top: 40px;
+}
+
+.section-1 .guitar-price h5 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 149%;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 20px 0px;
+}
+
+.section-1 .guitar-price button {
+  width: 125px;
+  height: 34px;
+  background-color: #FF753A;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 130%;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 32px;
+  margin-left: 500px;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=style.css.map */
